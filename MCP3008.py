@@ -1,7 +1,9 @@
 from spidev import SpiDev
 
 class MCP3008:
-	def __init__(self, bus = 0, device = 0):
+	#def __init__(self, bus = 0, device = 0):  #for connect CE0 at GPIO8
+        def __init__(self, bus = 0, device = 1):  #for connect CE1 at GPIO7
+        #def __init__(self, bus = 1, device = 0):  #wenig files kein update
 		self.bus, self.device =  bus, device
 		self.spi = SpiDev()
 		self.open()

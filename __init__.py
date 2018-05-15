@@ -8,9 +8,9 @@ from modules.core.props import Property
 class PHSensor(SensorActive):
 
     #channel = Property.Number("Channel", configurable=True, default_value=0)
-    MCPchannel = Property.Select("Channel", options=["0", "1", "2", "3", "4", "5", "6", "7"], description="Enter channel-number of MCP3008")
+    MCPchannel = Property.Select("MCP3008 Channel", options=["0", "1", "2", "3", "4", "5", "6", "7"], description="Enter channel-number of MCP3008")
     phvalue = 0
-
+    
     def get_unit(self):
         '''
         :return: Unit of the sensor as string. Should not be longer than 3 characters
@@ -34,11 +34,12 @@ class PHSensor(SensorActive):
                 adc = MCP3008()
                 value = adc.read(channel = 0) #Den auszulesenden channel kann man anpassen
                 #value = adc.read(channel = MCPchannel) 
-                phvalue = (".2f" % (value / 1023.0 * 3.3))
-                #phvalue = 5.33
+                #phvalue = (".2f" % (value / 1023.0 * 3.3))
+                phvalue = 5.33
                 cbpi.app.logger.info('PH Sensor value %s' % (phvalue))
                 #print("Anliegende Spannung: %.2f" % (value / 1023.0 * 3.3))
                 self.data_received(phvalue)
+                adc.close()
             except:
                 pass
             self.api.socketio.sleep(5)
