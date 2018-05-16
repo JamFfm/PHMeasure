@@ -1,15 +1,18 @@
 # -*- coding: utf-8 -*-
-from MCP3008 import MCP3008
+import time
+import Adafruit_GPIO.SPI as SPI
+import Adafruit_MCP3008
 from modules import cbpi
 from modules.core.hardware import  SensorActive
 from modules.core.props import Property
+
 
 @cbpi.sensor
 class PHSensor(SensorActive):
 
     #channel = Property.Number("Channel", configurable=True, default_value=0)
     MCPchannel = Property.Select("MCP3008 Channel", options=["0", "1", "2", "3", "4", "5", "6", "7"], description="Enter channel-number of MCP3008")
-    phvalue = 0
+    #phvalue = 0
     
     def get_unit(self):
         '''
@@ -30,23 +33,34 @@ class PHSensor(SensorActive):
         :return: 
         '''
         while self.is_running():
-            try:
-                adc = MCP3008()
-                value = adc.read(channel = 0) #Den auszulesenden channel kann man anpassen
-                #value = adc.read(channel = MCPchannel) 
-                #phvalue = (".2f" % (value / 1023.0 * 3.3))
-                phvalue = 5.33
-                cbpi.app.logger.info('PH Sensor value %s' % (phvalue))
-                #print("Anliegende Spannung: %.2f" % (value / 1023.0 * 3.3))
-                self.data_received(phvalue)
-                adc.close()
-            except:
-                pass
-            self.api.socketio.sleep(5)
+            #try:
+            # Software SPI configuration:
+            CLK  = 6
+            MISO = 13
+            MOSI = 19
+            CS   = 26
+            mcp = Adafruit_MCP3008.MCP3008(clk=CLK, cs=CS, miso=MISO, mosi=MOSI)
+
+            # Hardware SPI configuration:
+            # SPI_PORT   = 0
+            # SPI_DEVICE = 0
+            # mcp = Adafruit_MCP3008.MCP3008(spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE))
+            
+            value = mcp.read_adc(0) #Den auszulesenden channel kann man anpassen
+            voltage = (5 / 1023.0 * value)
+            phvalue = ("%.2f" % (7 + ((2.5 - voltage) / 0.1839)))
+            
+            cbpi.app.logger.info('PH Sensor value %s' % (phvalue))
+            
+            self.data_received(phvalue)
+            #mcp.close()
+            #except:
+            #    pass
+            self.api.socketio.sleep(2)
             #time.sleep(5)
 
 @cbpi.initalizer()
 def init(cbpi):
-    print "INITIALIZE HTTP SENSOR MODULE"
-    #cbpi.app.register_blueprint(blueprint, url_prefix='/api/httpsensor')
-    print "READY"
+    
+    pass
+
