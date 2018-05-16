@@ -20,7 +20,7 @@ and
 
   phvalue = 7 + ((2.5 - voltage) / 0.18)
 
-##Install
+# Install
 
 sudo apt-get update
 
