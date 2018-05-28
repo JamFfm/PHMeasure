@@ -33,3 +33,13 @@ git clone https://github.com/adafruit/Adafruit_Python_MCP3008.git
 cd Adafruit_Python_MCP3008
 
 sudo python setup.py install
+
+or
+
+use the Insatall file.
+
+go to pi home/craftbeerpi3
+
+than key in 
+
+./install.sh
