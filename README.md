@@ -42,12 +42,19 @@ Key in each line
 
 (6) sudo python setup.py install
 
+install PHMeter as addon in Cbpi 3
+
 or
 
-use the Insatall file.
+use the install.sh file:
 
-go to pi home/craftbeerpi3
+install PHMeter as addon in Cbpi 3
+
+go to pi/home/craftbeerpi3/modules/addon/PHMeter/
 
 than key in 
 
 ./install.sh
+
+reboot Raspi
+
