@@ -22,7 +22,7 @@ and
   
 # How to connect
 
-![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/Graph.PNG "Raspberry-Pi-PH Sensor Steckplatine.png ")
+![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/Raspberry-Pi-PH Sensor Steckplatine.png "wireing")
 
 # How to Install
 
