@@ -19,6 +19,10 @@ and
 
 
   phvalue = 7 + ((2.5 - voltage) / 0.18)
+  
+# How to connect
+
+![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/Graph.JPG "Raspberry-Pi-PH Sensor Steckplatine.png ")
 
 # How to Install
 
