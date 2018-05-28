@@ -26,17 +26,21 @@ and
 
 # How to Install
 
-sudo apt-get update
+## Console
 
-sudo apt-get install build-essential python-dev python-smbus git
+Key in each line
 
-cd ~
+(1) sudo apt-get update
 
-git clone https://github.com/adafruit/Adafruit_Python_MCP3008.git
+(2) sudo apt-get install build-essential python-dev python-smbus git
 
-cd Adafruit_Python_MCP3008
+(3) cd ~
 
-sudo python setup.py install
+(4) git clone https://github.com/adafruit/Adafruit_Python_MCP3008.git
+
+(5) cd Adafruit_Python_MCP3008
+
+(6) sudo python setup.py install
 
 or
 
