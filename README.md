@@ -26,7 +26,7 @@ and
 
 # How to Install
 
-## Console
+## console
 
 Key in each line
 
@@ -46,7 +46,7 @@ install PHMeter as addon in Cbpi 3
 
 or
 
-use the install.sh file:
+## use the install.sh file:
 
 install PHMeter as addon in Cbpi 3
 
