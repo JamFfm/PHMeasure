@@ -1,5 +1,5 @@
 # PHMeasure
-Craftbeerpi3 Sensor for phMeasure
+Craftbeerpi3 sensor for phMeasure
 this is alpha version. Do not use.
 Most helpful links:
 - https://forum.arduino.cc/index.php?topic=336012.0
@@ -19,6 +19,7 @@ and
 
 
   phvalue = 7 + ((2.5 - voltage) / 0.18)
+   
   
 # How to connect
 
@@ -57,4 +58,10 @@ than key in
 ./install.sh
 
 reboot Raspi
+
+# calibation
+
+
+## using potis
+
 
