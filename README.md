@@ -63,13 +63,14 @@ than key in
 
 reboot Raspi
 
-# Pins
+# Board description
 
 ![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/1.0x0.jpg "powerampfilter")
 
-## Board description
+
 
 * BNC plug: Where you put the probe. It seems to work with any probe with a calibration difference.
+
 * Pin To: Should be the temperature but I can't make it works.
 * Pin Do: High/Low 3.3v adjustable limit.
 * Pin G/GND: Probe ground. It may be useful when the ground is not the same as your Raspi. In fact I use the ground of the Raspi.
