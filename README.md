@@ -131,5 +131,5 @@ voltage = 5 / 1024.0 * measure; //classic digital to voltage conversion
 
 // PH_probe = PH7 - ((voltage@PH7 - voltage@probe) / PH_step)
 
-phvalue = 7 + ((2.5 - voltage) / *0.18*)
+phvalue = 7 + ((2.5 - voltage) / **0.18**)
 
