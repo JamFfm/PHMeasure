@@ -121,6 +121,8 @@ It's the voltage range equivalent of the pH range from 7 to 4.01, which is 2.99 
 
 The PH_probe is calculated by taking the known pH 7 voltage (2.5v) where we add some PH_step to match the probe voltage. This means that a pH of 8 have a voltage value of 2.5v (pH 7) + 0.1839 (1 unit/step); pH 9 then is 2.5v + 0.1839 + 0.1839 = 2.87v.
 
+To determine the Unit per Step (=PH_step in formula) is important to know.
+
 ## Finally the code
 
 voltage = 5 / 1024.0 * measure; //classic digital to voltage conversion
