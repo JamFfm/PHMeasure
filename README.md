@@ -51,7 +51,11 @@ or
 
 install PHMeter as addon in Cbpi 3
 
-go to pi/home/craftbeerpi3/modules/addon/PHMeter/
+open commandline
+
+key in
+
+cd /home/pi/craftbeerpi3/modules/plugins/PHMeasure/
 
 than key in 
 
