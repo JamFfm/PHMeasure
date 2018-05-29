@@ -5,11 +5,11 @@
 Craftbeerpi3 sensor for measuring ph values.
 
 Most helpful links:
-- https://forum.arduino.cc/index.php?topic=336012.0
+- https://forum.arduino.cc/index.php?topic=336012.0 last post first page
 
 and
 
-- https://tutorials-raspberrypi.de/wp-content/uploads/2016/10/Raspberry-Pi-Gas-Sensor-MQ2-Steckplatine.png last post
+- https://tutorials-raspberrypi.de/wp-content/uploads/2016/10/Raspberry-Pi-Gas-Sensor-MQ2-Steckplatine.png 
 
 and
 
