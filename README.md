@@ -45,7 +45,7 @@ Key in each line
 
 install PHMeter as addon in Cbpi 3
 
-## or
+### or
 
 ## use the install.sh file:
 
