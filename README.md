@@ -123,7 +123,7 @@ The PH_probe is calculated by taking the known pH 7 voltage (2.5v) where we add 
 
 To determine the Unit per Step (=PH_step in formula) is important to know.
 
-## Finally the code
+# Finally the code
 
 voltage = 5 / 1024.0 * measure; //classic digital to voltage conversion
 
