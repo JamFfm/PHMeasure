@@ -63,9 +63,9 @@ than key in
 
 reboot Raspi
 
-# calibation
+# Calibration
 
 
-## using potis
+## Using potis
 
-
+![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/Pinout 1 (1).jpg "powerampfilter")
