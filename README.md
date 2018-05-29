@@ -67,5 +67,5 @@ reboot Raspi
 
 
 ## Using potis
-
-![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/Pinout 1 (1).jpg "powerampfilter")
+PHMeasure/Pinout 1 (1).jpg 
+![Test Graph]("https://github.com/JamFfm/PHMeasure/blob/master/Pinout 1 (1).jpg" "powerampfilter")
