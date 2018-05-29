@@ -15,7 +15,16 @@ and
 
 - https://www.botshop.co.za/how-to-use-a-ph-probe-and-sensor/
  
-   
+# The probe and board
+
+at ebay
+- https://www.ebay.de/i/322935814230?ul_noapp=true
+
+but there are same in Aliexpress
+
+![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/PHSet.jpg "set")
+
+
   
 # How to connect
 
