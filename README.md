@@ -96,7 +96,7 @@ The offset is the shifting of all pH values to a specific voltage range. If a pH
 This can be done on the board or via software but it's probably easyer on the board because it's probe independant and there are less programming to do.
 
 
-Connect GND (both) and Vcc to Raspi GND and 5v. Please use a levelshifter to avoid damage at the GPIO which only support 3.3v. 
+Connect GND (both) to Raspi GND and and Vcc to Raspi 5v. Please use a levelshifter to avoid damage at the GPIO which only support 3.3v. 
 
 Remove the probe and do a short circuit between the the small BNC hole and the external part of BNC. 
 
