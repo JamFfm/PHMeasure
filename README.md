@@ -58,7 +58,9 @@ Note that you can swap the MCP3008 CLK, DOUT, DIN, and CS/SHDN pins to any other
     MOSI = 19
     CS   = 26
     mcp = Adafruit_MCP3008.MCP3008(clk=CLK, cs=CS, miso=MISO, mosi=MOSI)
-    
+
+- I recommend software SPI as it's easier to setup and more flexible.
+
 ## Hardware SPI
 
 To use hardware SPI first make sure you've enabled SPI using the raspi-config tool.  Be sure to answer yes to both enabling the SPI interface and loading the SPI kernel module, then reboot the Pi.  Check you can see a /dev/spidev0.0 and /dev/spidev0.1 device when you run the ls -l /dev/spi* command before continuing.
