@@ -5,6 +5,11 @@
 Craftbeerpi3 sensor for measuring ph values.
 
 Most helpful links:
+
+- https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008
+  Used this for the libs and classes
+
+
 - https://forum.arduino.cc/index.php?topic=336012.0 last post first page
 
 and
@@ -24,11 +29,47 @@ but there are same in Aliexpress
 
 ![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/PHSet.jpg "set")
 
-
+The probe board is an analog sensor. RaspberryPi can read only digital sensors.
+Therefore you need an analog/digital converter like the MSC3008 (10Bit)
   
 # How to connect
 
 ![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/RaspberryPiPHSensorSteckplatine.png "wireing")
+Be aware that you use the connections below if you don't change the code. Not use the connections in the picture!
+
+## Software SPI
+
+To connect the MCP3008 to the Raspberry Pi with a software SPI connection you need to make the following connections:
+- MCP3008 VDD to Raspberry Pi 3.3V 
+- MCP3008 VREF to Raspberry Pi 3.3V 
+- MCP3008 AGND to Raspberry Pi GND 
+- MCP3008 DGND to Raspberry Pi GND 
+- MCP3008 CLK to Raspberry Pi BCM GPIO PIN 6 
+- MCP3008 DOUT to Raspberry Pi BCM GPIO PIN 13 
+- MCP3008 DIN to Raspberry Pi BCM GPIO PIN 19 
+- MCP3008 CS/SHDN to Raspberry Pi BCM GPIO PIN 26 
+
+Note that you can swap the MCP3008 CLK, DOUT, DIN, and CS/SHDN pins to any other free digital GPIO pins on the Raspberry Pi.  You'll just need to modify the code to use your pins.
+
+    CLK  = 6
+    MISO = 13
+    MOSI = 19
+    CS   = 26
+    mcp = Adafruit_MCP3008.MCP3008(clk=CLK, cs=CS, miso=MISO, mosi=MOSI)
+    
+## Hardware SPI
+
+To use hardware SPI first make sure you've enabled SPI using the raspi-config tool.  Be sure to answer yes to both enabling the SPI interface and loading the SPI kernel module, then reboot the Pi.  Check you can see a /dev/spidev0.0 and /dev/spidev0.1 device when you run the ls -l /dev/spi* command before continuing.
+
+Now wire the MCP3008 to the Raspberry Pi as follows:
+- MCP3008 VDD to Raspberry Pi 3.3V 
+- MCP3008 VREF to Raspberry Pi 3.3V 
+- MCP3008 AGND to Raspberry Pi GND 
+- MCP3008 DGND to Raspberry Pi GND 
+- MCP3008 CLK to Raspberry Pi SCLK 
+- MCP3008 DOUT to Raspberry Pi MISO 
+- MCP3008 DIN to Raspberry Pi MOSI 
+- MCP3008 CS/SHDN to Raspberry Pi CE0 
 
 # How to Install
 
