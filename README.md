@@ -3,27 +3,35 @@
 # PHMeasure
 
 Craftbeerpi3 sensor for measuring ph values.
-The mash is between 4.5pH and 5.8pH.
-The target pH for the mash should be between 5.1pH and 5.5pH
+
+The mash can be between 4.5pH and 5.8pH.
+
+**The target pH for the mash should be between 5.1pH and 5.5pH**
+
+Therefore we should know the pH of the mash
 
 Most helpful links:
 
 - https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008
+
 Used this for the libs and classes
 
 and
 
 - https://forum.arduino.cc/index.php?topic=336012.0 
+
 last post first page, for understanding probe in general
 
 and
 
 - https://tutorials-raspberrypi.de/wp-content/uploads/2016/10/Raspberry-Pi-Gas-Sensor-MQ2-Steckplatine.png 
+
 wiring the probe-board and the levelshifter
 
 and
 
 - https://www.botshop.co.za/how-to-use-a-ph-probe-and-sensor/
+
 additional info
  
 # The probe and board
