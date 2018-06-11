@@ -1,4 +1,4 @@
-# This is alpha version.
+# This is beta version.
 
 # PHMeasure
 
