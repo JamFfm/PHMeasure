@@ -1,4 +1,4 @@
-# this is alpha version. Do not use.
+# This is alpha version.
 
 # PHMeasure
 
@@ -29,17 +29,19 @@ but there are same in Aliexpress
 
 ![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/PHSet.jpg "set")
 
-The probe board is an analog sensor. RaspberryPi can read only digital sensors.
-Therefore you need an analog/digital converter like the MSC3008 (10Bit)
+**The probe board is an analog sensor. RaspberryPi can read only digital sensors.
+Therefore you need an analog/digital converter like the MSC3008 (10Bit)**
   
 # How to connect
 
-![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/RaspberryPiPHSensorSteckplatine.png "wireing")
-Be aware that you use the connections below if you don't change the code. Not use the connections in the picture!
+![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/RaspberryPiPHSensorSteckplatine.png "Example wireingm, not campatible with code. Have a look at Software SPI")
+Be aware that you use the **connections below** if you don't change the code. Not use the MCP3008 connections in the picture!
+**But use the Picture to wire the levelshifter**
 
 ## Software SPI
 
 To connect the MCP3008 to the Raspberry Pi with a software SPI connection you need to make the following connections:
+
 - MCP3008 VDD to Raspberry Pi 3.3V 
 - MCP3008 VREF to Raspberry Pi 3.3V 
 - MCP3008 AGND to Raspberry Pi GND 
