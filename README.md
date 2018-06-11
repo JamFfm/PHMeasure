@@ -14,25 +14,25 @@ Most helpful links:
 
 - https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008
 
- Used this for the libs and classes
+  Used this for the libs and classes
 
 and
 
 - https://forum.arduino.cc/index.php?topic=336012.0 
 
- last post first page, for understanding probe in general
+  last post first page, for understanding probe in general
 
 and
 
 - https://tutorials-raspberrypi.de/wp-content/uploads/2016/10/Raspberry-Pi-Gas-Sensor-MQ2-Steckplatine.png 
 
- wiring the probe-board and the levelshifter
+  wiring the probe-board and the levelshifter
 
 and
 
 - https://www.botshop.co.za/how-to-use-a-ph-probe-and-sensor/
 
- additional info
+  additional info
  
 # The probe and board
 
