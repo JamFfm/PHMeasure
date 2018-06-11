@@ -30,7 +30,9 @@ but there are same in Aliexpress
 ![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/PHSet.jpg "set")
 
 **The probe board is an analog sensor. RaspberryPi can read only digital sensors.
-Therefore you need an analog/digital converter like the MSC3008 (10Bit)**
+Therefore you need an analog/digital converter like the MCP3008 (10Bit)**
+
+![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/sensors_raspberry_pi_mcp3008pin.gif  "Pins of MCP3008")
   
 # How to connect
 
