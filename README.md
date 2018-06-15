@@ -209,7 +209,7 @@ home/pi/craftbeerpi3/modules/plugins/PHMeasure/
 
 # Parameter
 
-There are 3 Parameter to select:
+There are 3 parameter to select:
 
 ## Digit
 This shows the value of the MCP 3008 and runs from 0-1024.
@@ -217,16 +217,18 @@ This is the basic of all measurement.
 
 
 ## Voltage
-This shows the calculated value of the Voltage measurment.
+This shows the calculated value of the Voltage measurement.
 Voltage = 5 / 1024.0 * Digit
-5 is the basic Voltage of the Board
-This means 1024 Digit is equal to 5V.
+5 is the basic voltage of the Board
+This means 1024 digit is equal to 5V.
 
 
 ## pH Value
 This shows the calculated value of the pH measurment.
-phvalue = 7 + ((2.5 - voltage) / *0.1839* )
+phvalue = 7 + ((2.532 - voltage) / *0.1839* )
 As discribed above the *0.1839* has to be adopted in the code.
+
+Maybe the 2.532 has to be adopted to the voltage value you measure with the short circuit between the the small BNC hole and the external part of BNC.
 
 
 # Known Problems
