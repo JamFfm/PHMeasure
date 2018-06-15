@@ -109,13 +109,13 @@ Key in each line
 
 (6) sudo python setup.py install
 
-install PHMeter as addon in Cbpi 3
+install PHMeasure as addon in Cbpi 3
 
 ### or
 
 ## use the install.sh file:
 
-install PHMeter as addon in Cbpi 3
+install PHMeasure as addon in Cbpi 3
 
 open commandline
 
@@ -127,7 +127,7 @@ than key in
 
 ./install.sh
 
-reboot Raspi
+Wait until everything is installed. Reboot Raspi
 
 # Board description
 
