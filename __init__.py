@@ -54,16 +54,16 @@ class PHSensor(SensorActive):
 
             
             ch = (self.MCPchannel)
-            cbpi.app.logger.info('PH Sensor channel     %s' % (ch))                     #debug
+            #cbpi.app.logger.info('PH Sensor channel     %s' % (ch))                     #debug
             
             value= mcp.read_adc(int(ch))                                                #change MCP3008 channel here via propertys of sensor
-            cbpi.app.logger.info('PH Sensor value     %s' % (value))                    #debug or calibration
+            #cbpi.app.logger.info('PH Sensor value     %s' % (value))                    #debug or calibration
 
             voltage = (5 / 1023.0 * value)
-            cbpi.app.logger.info('PH Sensor voltage %.3f' % (voltage))                  #debug or calibration
+            #cbpi.app.logger.info('PH Sensor voltage %.3f' % (voltage))                  #debug or calibration
 
             phvalue = ("%.2f" % (7 + ((2.532 - voltage) / 0.1839)))
-            cbpi.app.logger.info("PH Sensor phvalue %s%s" % ((phvalue),("0")))          #debug or calibration
+            #cbpi.app.logger.info("PH Sensor phvalue %s%s" % ((phvalue),("0")))          #debug or calibration
 
             if self.sensorType == "pH Value":
                 reading = phvalue
