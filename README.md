@@ -196,11 +196,40 @@ phvalue = 7 + ((2.5 - voltage) / *0.1839* )
 
 # Usage
 
+Use this Sensor as any other sensor in Craftbeerpi 3.
+The Digit and Voltage values can help to calibrate.
+The main Calibaration is alredy described. Please change the formula in the code of the file "__init__.py" in the folder
+
+home/pi/craftbeerpi3/modules/plugins/PHMeasure/
+
+They are not needed for pH Measurement.
+
 # Parameter
 
-# Known Problems
+There are 3 Parameter to select:
 
-# Fixed Problems
+## Digit
+This shows the value of the MCP 3008 and runs from 0-1024.
+This is the basic of all measurement.
+
+
+## Voltage
+This shows the calculated value of the Voltage measurment.
+Voltage = 5 / 1024.0 * Digit
+5 is the basic Voltage of the Board
+This means 1024 Digit is equal to 5V.
+
+
+## pH Value
+This shows the calculated value of the pH measurment.
+phvalue = 7 + ((2.5 - voltage) / *0.1839* )
+As discribed above the *0.1839* has to be adopted in the code.
+
+
+# Known Problems
+no problems known until now
+wrong spelling
+
 
 # Support
 
