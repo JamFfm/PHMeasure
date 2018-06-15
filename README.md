@@ -194,3 +194,14 @@ voltage = 5 / 1024.0 * measure; //classic digital to voltage conversion
 
 phvalue = 7 + ((2.5 - voltage) / *0.1839* )
 
+# Usage
+
+# Parameter
+
+# Known Problems
+
+# Fixed Problems
+
+# Support
+
+Report issues either in this Git section or at Facebook at the [Craftbeerpi group](https://www.facebook.com/groups/craftbeerpi/)
