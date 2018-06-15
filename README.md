@@ -197,12 +197,15 @@ phvalue = 7 + ((2.5 - voltage) / *0.1839* )
 # Usage
 
 Use this Sensor as any other sensor in Craftbeerpi 3.
-The Digit and Voltage values can help to calibrate.
-The main Calibaration is alredy described. Please change the formula in the code of the file "__init__.py" in the folder
+The Digit and Voltage values can help to calibrate. They are not needed for pH measurement.
+The main calibaration is already described above. 
+
+Please do changes of the formula in the code of the file "__init__.py". 
+
+It is situated in the folder
 
 home/pi/craftbeerpi3/modules/plugins/PHMeasure/
 
-They are not needed for pH Measurement.
 
 # Parameter
 
