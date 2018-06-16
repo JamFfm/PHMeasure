@@ -76,8 +76,6 @@ class PHSensor(SensorActive):
             
             self.data_received(reading)
 
-            #mcp.close()                                                                 #did not use this one, in case the CBPi stopps after a while use this lise. I did mir need i            
-            
             self.api.socketio.sleep(3)
             
 
