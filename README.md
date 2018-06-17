@@ -210,6 +210,8 @@ It is situated in the folder
 
 home/pi/craftbeerpi3/modules/plugins/PHMeasure/
 
+According the parameters of the probe it can be situated in max 80°C liquid.
+I never tryed that until now.
 
 # Parameter
 
@@ -245,6 +247,7 @@ There are only some lines to change.
 - No problems known until now.
 - No stable values. They are runnining from small range from min to max.
 - Wrong spelling
+- I never used the probe so far. I have to do this next brewday.
 
 
 # Support
