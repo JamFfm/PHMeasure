@@ -1,4 +1,4 @@
-# This is beta version.
+
 
 # PHMeasure
 
@@ -12,22 +12,23 @@ Therefore we should know the pH of the mash
 
 # Most helpful links:
 
+
+I got all my knowledge from these links:
+
+
 - https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008
 
   Used this for the libs and classes
-
-
+ 
 
 - https://forum.arduino.cc/index.php?topic=336012.0 
 
   last post first page, for understanding probe in general
 
 
-
 - https://tutorials-raspberrypi.de/wp-content/uploads/2016/10/Raspberry-Pi-Gas-Sensor-MQ2-Steckplatine.png 
 
   wiring the probe-board and the levelshifter
-
 
 
 - https://www.botshop.co.za/how-to-use-a-ph-probe-and-sensor/
@@ -234,9 +235,15 @@ As discribed above the *0.1839* has to be adopted in the code.
 Maybe the 2.532 has to be adopted to the voltage value you measure with the short circuit between the the small BNC hole and the external part of BNC.
 
 
+# Hint
+
+You can easily change the addon for different analog sensors.
+there are only some lines to change. 
+
 # Known Problems
-no problems known until now
-wrong spelling
+- No problems known until now.
+- No stable values. They are runnining from small range from min to max.
+- Wrong spelling
 
 
 # Support
