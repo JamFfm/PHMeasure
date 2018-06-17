@@ -6,7 +6,7 @@
 
 The mash can be between 4.5pH and 5.8pH.
 
->**The target pH for the mash should be between 5.1pH and 5.5pH**
+>**The target pH for the mash usually should be between 5.1pH and 5.5pH**
 
 Therefore we should know the pH of the mash
 
@@ -101,7 +101,7 @@ Key in each line
 
 (2) sudo apt-get install build-essential python-dev python-smbus git
 
-(3) cd ~
+(3) cd /home/pi/craftbeerpi3
 
 (4) git clone https://github.com/adafruit/Adafruit_Python_MCP3008.git
 
@@ -196,9 +196,12 @@ phvalue = 7 + ((2.5 - voltage) / *0.1839* )
 
 # Usage
 
-Use this Sensor as any other sensor in Craftbeerpi 3.
+Use this sensor as any other sensor in Craftbeerpi 3.
 The Digit and Voltage values can help to calibrate. They are not needed for pH measurement.
 The main calibaration is already described above. 
+
+Keep in mind that it takes several minutes (sometimes 10 min) to get the right pH value.
+*It does **not** show stable values but running around a min and max pH value.*
 
 Please do changes of the formula in the code of the file "__init__.py". 
 
