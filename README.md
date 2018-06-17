@@ -238,7 +238,8 @@ Maybe the 2.532 has to be adopted to the voltage value you measure with the shor
 # Hint
 
 You can easily change the addon for different analog sensors.
-there are only some lines to change. 
+
+There are only some lines to change. 
 
 # Known Problems
 - No problems known until now.
