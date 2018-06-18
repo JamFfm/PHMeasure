@@ -1,6 +1,6 @@
 
 
-# PHMeasure add-on for Craftbeerpi3
+# PHMeasure add-on for CraftBeerPi 3
 
 *Craftbeerpi3* sensor for measuring ph values.
 
