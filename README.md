@@ -63,12 +63,14 @@ To connect the MCP3008 to the Raspberry Pi with a software SPI connection you ne
 - MCP3008 VREF to Raspberry Pi 3.3V 
 - MCP3008 AGND to Raspberry Pi GND 
 - MCP3008 DGND to Raspberry Pi GND 
-- MCP3008 CLK to Raspberry Pi BCM GPIO PIN 6 
-- MCP3008 DOUT to Raspberry Pi BCM GPIO PIN 13 
-- MCP3008 DIN to Raspberry Pi BCM GPIO PIN 19 
-- MCP3008 CS/SHDN to Raspberry Pi BCM GPIO PIN 26 
+- MCP3008 CLK to Raspberry Pi BCM GPIO 6 
+- MCP3008 DOUT to Raspberry Pi BCM GPIO 13 
+- MCP3008 DIN to Raspberry Pi BCM GPIO 19 
+- MCP3008 CS/SHDN to Raspberry Pi BCM GPIO 26 
 
-Note that you can swap the MCP3008 CLK, DOUT, DIN, and CS/SHDN pins to any other free digital GPIO pins on the Raspberry Pi.  You'll just need to modify the code to use your pins.
+
+
+Note that you can swap the MCP3008 CLK, DOUT, DIN, and CS/SHDN pins to any other free digital GPIO pins on the Raspberry Pi.  You'll just need to modify the code to use your pins. The pin number is the GPIO Nr. in this case.
 
     CLK  = 6
     MISO = 13
