@@ -6,9 +6,13 @@
 
 The mash can be between 4.5pH and 5.8pH.
 
->**The target pH for the mash usually should be between 5.1pH and 5.5pH**
+>**The target pH for the mash usually should be between 5.3pH and 5.7pH**
 
 Therefore we should know the pH of the mash
+
+German link to ph in Beer
+
+- https://www.maischemalzundmehr.de/index.php?inhaltmitte=exp_maischph
 
 # Most helpful links:
 ## All information on this side comes from the following links
