@@ -132,7 +132,7 @@ cd /home/pi/craftbeerpi3/modules/plugins/PHMeasure/
 
 than key in
 
-sudo chmod a+rwx /home/pi/craftbeerpi3/modules/plugins/PHMeasure/install.sh
+sudo chown -R pi /home/pi/craftbeerpi3/modules/plugins/LCDDisplay
 
 than key in 
 
