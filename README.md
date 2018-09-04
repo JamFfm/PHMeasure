@@ -214,11 +214,9 @@ The main calibaration is already described above.
 Keep in mind that it takes several minutes to get the right pH value.
 
 When using in the rotating mash no stable values are shown but in a probe of mash (ex. a glass) it was very stable.
-
 Values matched with a other pH measurement tool.
 
 Please do changes of the formula in the code of the file "__init__.py". 
-
 It is situated in the folder
 
 home/pi/craftbeerpi3/modules/plugins/PHMeasure/
