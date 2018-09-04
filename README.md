@@ -128,11 +128,11 @@ open commandline
 
 key in
 
-cd /home/pi/craftbeerpi3/modules/plugins/PHMeasure/
+sudo chown -R pi /home/pi/craftbeerpi3/modules/plugins/PHMeasure
 
 than key in
 
-sudo chown -R pi /home/pi/craftbeerpi3/modules/plugins/LCDDisplay
+cd /home/pi/craftbeerpi3/modules/plugins/PHMeasure
 
 than key in 
 
