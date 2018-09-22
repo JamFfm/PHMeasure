@@ -44,7 +44,9 @@ I got all my knowledge from these links:
 at ebay
 - https://www.ebay.de/i/322935814230?ul_noapp=true
 
-but there are same in Aliexpress
+but there are same in Aliexpress.
+Search for this: "Liquid PH Value Erkennung Detect Modul +BNC Electrode Probe for Arduino"
+
 
 ![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/PHSet.jpg "set")
 
