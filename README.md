@@ -38,6 +38,8 @@ I got all my knowledge from these links:
 - https://www.botshop.co.za/how-to-use-a-ph-probe-and-sensor/
 
   additional info
+  
+- https://raspberrypi.stackexchange.com/questions/96653/calibrate-ph-4502c-ph-meter
  
 # The probe and board for this Craftbeerpi 3 addon
 
