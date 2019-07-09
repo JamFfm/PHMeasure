@@ -262,6 +262,11 @@ There are only some lines to change.
 - No problems known until now.
 - When using in the rotating mash no stable values are shown 
 - Wrong spelling
+- no temperature calibration
+- may use this in future
+https://de.aliexpress.com/item/33014998723.html?spm=a2g0o.detail.1000014.1.54b57547AYykrh&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.13338.136569.000000000000000&scm_id=1007.13338.136569.000000000000000&scm-url=1007.13338.136569.000000000000000&pvid=b6a0ab9b-ab55-4e76-9700-2467f4266b62
+
+and ADS1115
 
 # Support
 
