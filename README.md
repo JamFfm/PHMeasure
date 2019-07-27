@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/CBPi%203%20addin-functionable-green.svg)  ![](https://img.shields.io/github/license/JamFfm/PHMeasure.svg?style=flat) ![](https://img.shields.io/github/last-commit/JamFfm/PHMeasure.svg?style=flat) ![](https://img.shields.io/github/release-pre/JamFfm/PHMeasure.svg?style=flat)
+![](https://img.shields.io/badge/CBPi%20addin-functionable_for_V3-green.svg)  ![](https://img.shields.io/github/license/JamFfm/PHMeasure.svg?style=flat) ![](https://img.shields.io/github/last-commit/JamFfm/PHMeasure.svg?style=flat) ![](https://img.shields.io/github/release-pre/JamFfm/PHMeasure.svg?style=flat)
 
 # PHMeasure add-on for CraftBeerPi 3
 
