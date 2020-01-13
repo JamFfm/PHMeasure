@@ -59,7 +59,7 @@ Therefore you need an analog/digital converter like the MCP3008 (10Bit)**
   
 # How to connect
 
-![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/WieringMCP3008_Steckplatine.png)
+![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/WieringMCP3008_Steckplatine.png "connecting")
 
 ![Test Graph](https://github.com/JamFfm/PHMeasureADS1115/blob/master/WiringADS1115_Steckplatine.png "Example wiring")
 
