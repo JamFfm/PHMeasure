@@ -59,9 +59,10 @@ Therefore you need an analog/digital converter like the MCP3008 (10Bit)**
   
 # How to connect
 
-![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/RaspberryPiPHSensorSteckplatine.png "Example wiring, not campatible with code. Have a look at Software SPI")
-Be aware that you use the **connections below** if you don't change the code. Not use the MCP3008 connections in the picture!
-**But use the Picture to wire the levelshifter and the probe-board. In this picture channel 0 is connected**
+![Test Graph](https://github.com/JamFfm/PHMeasure/blob/master/WieringMCP3008_Steckplatine.png "connecting")
+
+
+**In this picture channel 0 is connected**
 
 ## Software SPI
 
